@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html style="background-color: white;">
+<head>
+  <title>Alpha 0.42</title>
+  <link rel="icon" href="watermelon_fruit_icon_175994.ico" type="image/x-icon">
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Comic Sans MS;
+    }
+    #clickButton {
+      padding: 20px 40px;
+      font-size: 24px;
+      background-color: black;
+      border-color: black;
+      border-radius:0px;
+      color:transparent;
+      border: justify-content;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    #clickButton:active{
+        transform: scale(1.1);
+    }
+    #countDisplay {
+      margin-top: 20px;
+      font-size: 36px;
+    }
+    #perSecondDisplay {
+        font-size: 18px;
+    }
+    #upgradeButton {
+        padding: 10px 20px;
+        background-color: darkblue;
+        border: justify-content;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button id="clickButton" style="-webkit-text-stroke: 1px white; text-shadow: white 0 0 9px;">Click Me to start!</button>
+  <div id="countDisplay" style="color:transparent; text-transform: uppercase; -webkit-text-stroke: 1px purple; text-shadow: purple 0 0 8px">Count: 0</div>
+  <div id = "perSecondDisplay" style="color:transparent; text-transform:uppercase; -webkit-text-stroke: 1px navy; text-shadow: navy 0 0 8px" >Per Second: 0</div>
+  <button id="upgradeButton">Buy +1/second (Cost: 10)</button>
+
+  <script>
+    let count = 0;
+    let perSecond = 0;
+    const button = document.getElementById("clickButton");
+    const display = document.getElementById("countDisplay");
+    const perSecondDisplay = document.getElementById("perSecondDisplay");
+    const upgradeButton = document.getElementById("upgradeButton");
+
+    button.addEventListener("click", function() {
+      count++;
+      display.textContent = "Count: " + count;
+    });
+
+    setInterval(function(){
+        count += perSecond;
+        display.textContent = "Count: " + count;
+    }, 1000);
+
+    upgradeButton.addEventListener("click", function(){
+        if(count >= 10){
+            count -= 10;
+            perSecond++;
+            display.textContent = "Count: " + count;
+            perSecondDisplay.textContent = "Per Second: " + perSecond;
+        }
+
+    });
+  </script>
+</body>
+</html>
+<script>
+    let count = 0;
+    let perSecond = 0;
+    const button = document.getElementById("clickButton");
+    const display = document.getElementById("countDisplay");
+    const perSecondDisplay = document.getElementById("perSecondDisplay");
+    const upgradeButton = document.getElementById("upgradeButton");
+
+    button.addEventListener("click", function() {
+      count++;
+      display.textContent = "Count: " + count;
+    });
+
+    setInterval(function(){
+        count += perSecond;
+        display.textContent = "Count: " + count;
+    }, 1000);
+
+    upgradeButton.addEventListener("click", function(){
+        if(count >= 10){
+            count -= 10;
+            perSecond++;
+            display.textContent = "Count: " + count;
+            perSecondDisplay.textContent = "Per Second: " + perSecond;
+        } else {
+            alert("Not enough points!"); //added alert
+        }
+
+    });
+  </script>
+  <!DOCTYPE html>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Link Button</title>
+  <style>
+    .link-button {
+      background-color: lightblue;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none; /* Removes the underline from the link */
+    }
+  </style>
+ <form action="https://nextgensoccer.oldsouthmarlinclub.com" target="_blank"><button type="submit" style="background-color:black; color:purple; font-size:25px; border-color:magenta; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Doge unblocker</button></form>
+ <form action="https://copy.sh/v86/?=" target="_blank"><button type="submit" style="background-color:black; color:navy; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Old Web emulator</button></form>
+<form action="https://github.com/herocheese-lemon" target="_blank"><button type="submit" style="background-color:black; color:green; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : green 0px 0px 6px">My GitHub Page!</button></form>
+</body>
+</html>
