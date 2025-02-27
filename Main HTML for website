@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="background-color: white;">
 <head>
-  <title>Alpha 0.42</title>
+  <title>gapmanokallow.gg.uk</title>
   <link rel="icon" href="watermelon_fruit_icon_175994.ico" type="image/x-icon">
 </body>
 </html>
@@ -134,8 +134,38 @@
       text-decoration: none; /* Removes the underline from the link */
     }
   </style>
- <form action="https://nextgensoccer.oldsouthmarlinclub.com" target="_blank"><button type="submit" style="background-color:black; color:purple; font-size:25px; border-color:magenta; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Doge unblocker</button></form>
+ <form action="https://nextgensoccer.oldsouthmarlinclub.com" target="https://nextgensoccer.oldsouthmarlinclub.com"><button type="submit" style="background-color:black; color:purple; font-size:25px; border-color:magenta; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Doge unblocker</button></form>
  <form action="https://copy.sh/v86/?=" target="_blank"><button type="submit" style="background-color:black; color:navy; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Old Web emulator</button></form>
-<form action="https://github.com/herocheese-lemon" target="_blank"><button type="submit" style="background-color:black; color:green; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : green 0px 0px 6px">My GitHub Page!</button></form>
+<form action="https://github.com/herocheese-lemon" target="https://github.com/herocheese-lemon"><button type="submit" style="background-color:black; color:green; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : green 0px 0px 6px">My GitHub Page!</button></form>
 </body>
 </html>
+<form action="https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html?" target="https://nextgensoccer.oldsouthmarlinclub.com"><button type="submit" style="background-color:black; color:lightblue; font-size:25px; border-color:darkblue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">drift_hunter</button></form>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mouse Car - Behind Follow</title>
+  <style>
+    #car {
+      position: absolute;
+      width: 100px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <img id="car" src="https://www.pngall.com/wp-content/uploads/2016/03/Penguin-Transparent.png" alt="Car">
+
+  <script>
+    const car = document.getElementById("car");
+    const carWidth = 100; // Store the width of the car
+
+    document.addEventListener("mousemove", function(event) {
+      car.style.left = event.clientX - carWidth + "px"; // Car's back follows mouse
+      car.style.top = event.clientY - (car.offsetHeight / 2) + "px"; // vertically center the car
+    });
+  </script>
+
+</body>
+</html>
+<input type="text" placeholder="reload after clicking a button">
