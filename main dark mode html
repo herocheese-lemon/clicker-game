@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html style="background-color: black;">
+<head>
+  <title>FILENOTFOUND</title>
+  <link rel="icon" href="ubisoft_logo_icon_144779.ico" type="image/x-icon">
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Times New Roman;
+    }
+    #clickButton {
+      padding: 20px 40px;
+      font-size: 24px;
+      background-color: black;
+      border-color: black;
+      border-radius:0px;
+      color:transparent;
+      border: justify-content;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.1s;
+    }
+    #clickButton:active{
+        transform: scale(1.1);
+    }
+    #countDisplay {
+      margin-top: 20px;
+      font-size: 36px;
+    }
+    #perSecondDisplay {
+        font-size: 18px;
+    }
+    #upgradeButton {
+        padding: 10px 20px;
+        background-color: darkblue;
+        border: justify-content;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button id="clickButton" style="-webkit-text-stroke: 1px white; text-shadow: white 0 0 9px;">Click Me to start!</button>
+  <div id="countDisplay" style="color:transparent; text-transform: uppercase; -webkit-text-stroke: 1px purple; text-shadow: purple 0 0 8px">Count: 0</div>
+  <div id = "perSecondDisplay" style="color:transparent; text-transform:uppercase; -webkit-text-stroke: 1px navy; text-shadow: navy 0 0 8px" >Per Second: 0</div>
+  <button id="upgradeButton">Buy +1/second (Cost: 10)</button>
+
+  <script>
+    let count = 0;
+    let perSecond = 0;
+    const button = document.getElementById("clickButton");
+    const display = document.getElementById("countDisplay");
+    const perSecondDisplay = document.getElementById("perSecondDisplay");
+    const upgradeButton = document.getElementById("upgradeButton");
+
+    button.addEventListener("click", function() {
+      count++;
+      display.textContent = "Count: " + count;
+    });
+
+    setInterval(function(){
+        count += perSecond;
+        display.textContent = "Count: " + count;
+    }, 1000);
+
+    upgradeButton.addEventListener("click", function(){
+        if(count >= 10){
+            count -= 10;
+            perSecond++;
+            display.textContent = "Count: " + count;
+            perSecondDisplay.textContent = "Per Second: " + perSecond;
+        }
+
+    });
+  </script>
+<script>
+    let count = 0;
+    let perSecond = 0;
+    const button = document.getElementById("clickButton");
+    const display = document.getElementById("countDisplay");
+    const perSecondDisplay = document.getElementById("perSecondDisplay");
+    const upgradeButton = document.getElementById("upgradeButton");
+
+    button.addEventListener("click", function() {
+      count++;
+      display.textContent = "Count: " + count;
+    });
+
+    setInterval(function(){
+        count += perSecond;
+        display.textContent = "Count: " + count;
+    }, 1000);
+
+    upgradeButton.addEventListener("click", function(){
+        if(count >= 10){
+            count -= 10;
+            perSecond++;
+            display.textContent = "Count: " + count;
+            perSecondDisplay.textContent = "Per Second: " + perSecond;
+        } else {
+            alert("Not enough points!"); //added alert
+        }
+
+    });
+  </script>
+  <title>Link Button</title>
+  <style>
+    .link-button {
+      background-color: lightblue;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none; /* Removes the underline from the link */
+    }
+  </style>
+ <form action="https://nextgensoccer.oldsouthmarlinclub.com" target="https://nextgensoccer.oldsouthmarlinclub.com"><button type="submit" style="background-color:black; color:purple; font-size:25px; border-color:magenta; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Doge unblocker</button></form>
+ <form action="https://copy.sh/v86/?=" target="_blank"><button type="submit" style="background-color:black; color:navy; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">Old Web emulator</button></form>
+<form action="https://nectarine-aqua-ekp7.squarespace.com/" target="https://nectarine-aqua-ekp7.squarespace.com/"><button type="submit" style="background-color:black; color:green; font-size:25px; border-color:blue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : green 0px 0px 6px">about me</button></form>
+<form action="https://zayaruzostreetorgan.com/uploads/5/5/6/7/5567194/custom_themes/136734914403232081/drift_hunter.html?" target="https://nextgensoccer.oldsouthmarlinclub.com"><button type="submit" style="background-color:black; color:lightblue; font-size:25px; border-color:darkblue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">drift_hunter</button></form>
+<form action="https://d1tm91r4ytbt54.cloudfront.net/2779cbcb-a02f-48a3-9e2e-95a8d123d165/1685483461665/web/index.html?" target="https://d1tm91r4ytbt54.cloudfront.net/2779cbcb-a02f-48a3-9e2e-95a8d123d165/1685483461665/web/index.html?"><button type="submit" style="background-color:black; color:lightblue; font-size:25px; border-color:darkblue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">minecraft</button></form>
+<form action="https://irifindecoefjedielcjhfekdcskmei.neocities.org/g/fs2/?" target="https://irifindecoefjedielcjhfekdcskmei.neocities.org/g/fs2/?"><button type="submit" style="background-color:black; color:lightblue; font-size:25px; border-color:darkblue; border-width: 3px; text-shadow: 0 0 7px;border-radius:10px; : magenta 0px 0px 6px">unfunny pve</button></form>
+
+   <form action="https://crapforsolvingbordom.neocities.org"><button type="submit" style="background-color:black; color:lightblue; font-size:25px; border-color:white; text-shadow: 0 0 25px; border-width: 3px;border-radius:10px; : magenta 0px 0px 6px">Lightmode</button></form>
+
+</body>
+</html>
+<input type="text" placeholder="reload after clicking a button">
